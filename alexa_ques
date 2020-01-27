@@ -5,9 +5,10 @@ module.exports = {
    * Make sure the first answer is the correct one.
    * Set at least ANSWER_COUNT answers, any extras will be shuffled in.
    */
-    QUESTIONS_FR: [
+
+  QUESTIONS_fr: [
     {
-      'Que désigne le terme Soprano utilisé dans le domaine du chant?': [
+      'Que désigne le terme Soprano utilisé dans le domaine du chant ?': [
         'Voix de femme ou d\'enfant',
         'Altos',
         'Voix masculine',
@@ -24,7 +25,862 @@ module.exports = {
         'Jean Anouilh',
       ],
     },
-  ],
-};
+  {
+'Parmi les écrivains suivants, lequel a écrit Le Choc des civilisations ?':[
+' Samuel Huntington',
+' Isaac Asimov',
+' Paul Auster',
+' William Faulkner',
+' Ernest Hemingway',
+],
+},
+{
+'Quelle est la capitale de la Nouvelle-Zélande ?':[
+' Wellington',
+' Christchurch',
+' Dunedin',
+' Auckland',
+' Hamilton',
+],
+},
+{
+'Parmi les personnalités suivantes, laquelle ne fait pas partie de l’Académie française ?':[
+' Jean-Marie Gustave Le Clézio',
+' Alain Decaux',
+' Max Gallo',
+' Valéry Giscard d’Estaing',
+' Xavier Darcos',
+],
+},
+{
+'Sur quel groupe Mittal Steel a-t-il lancé une OPA en 2006 ?':[
+' Arcelor',
+' ThyssenKrupp',
+' Riva',
+' US Steel',
+' Nucor',
+],
+},
+{
+'Quelle œuvre littéraire a inspiré le célèbre opéra de Verdi «La Traviata» ?':[
+' La Dame aux Camélias',
+' Le Rouge et le Noir',
+' La Curée',
+' Une vie',
+' La Chartreuse de Parme',
+],
+},
+{
+'Quel type d’utilisation d’un bien ou d’un service déﬁnit un bien public en sciences économiques ?':[
+' Non rivale et non exclusive',
+' Rivale et non exclusive',
+' Non rivale et exclusive',
+' Rivale et exclusive',
+' Commune et ouverte',
+],
+},
+{
+'Dans quelle ville peut-on visiter le musée Van Gogh ?':[
+' Amsterdam',
+' New York',
+' Bruxelles',
+' Shanghai',
+' Paris',
+],
+},
+{
+'En France, par quel(le) ministre a été porté le dernier projet de réforme pénale, qui a donné lieu à la loi promulguée sous la Ve République «relative à l’individualisation des peines et renforçant l’efﬁcacité des sanctions pénales» ?':[
+' Christiane Taubira',
+' Jean-Louis Debré',
+' Rachida Dati',
+' Robert Badinter',
+' Nicolas Sarkozy',
+],
+},
+{
+' Dans quel pays retrouve-t-on le mouvement sandiniste ?':[
+' Le Nicaragua',
+' Le Brésil',
+' L’Argentine',
+' Le Pérou',
+' Le Chili',
+],
+},
+{
+'Quel est le plus grand pays d’Afrique de par sa superﬁcie ?':[
+' L’Algérie',
+' Le Soudan',
+' Le Tchad',
+' Le Niger',
+' Le Maroc',
+],
+},
+{
+'Quel ﬂeuve traverse la ville de Séville en Espagne ?':[
+' Le Guadalquivir',
+' Le Tage',
+' L’Ebre',
+' Le Douro',
+' Le Tibre',
+],
+},
+{
+'À quel pays l’île du Groenland appartient-elle ?':[
+' Le Danemark',
+' La Suède',
+' La Norvège',
+' La Finlande',
+' La Russie',
+],
+},
+{
+'Parmi ces propositions, laquelle ne fait pas partie du système d’organisation des Nations unies ?':[
+' Le Conseil exécutif',
+' Le Conseil de sécurité',
+' L’Assemblée générale',
+' Le Conseil de tutelle',
+' La Cour internationale de Justice',
+],
+},
+{
+'En France, dans quel département se trouve le Mont-Saint-Michel ?':[
+' La Manche',
+' Le Calvados',
+' L’Ile-et-Vilaine',
+' La Seine-Maritime',
+' L’Orne',
+],
+},
+{
+'En France, où sont inhumés un grand nombre de rois ?':[
+' La basilique de Saint-Denis',
+' La cathédrale d’Amiens',
+' La cathédrale de Reims',
+' La cathédrale de Chartes',
+' La cathédrale de Sens',
+],
+},
+{
+'Quels pays ont signé le pacte de Varsovie en 1955 ?':[
+' L’Albanie, la Bulgarie, la Hongrie, la Pologne, la RDA, la Roumanie, l’URSS et la Tchécoslovaquie',
+' La Bulgarie, la RFA, la Pologne, la RDA, la Roumanie, l’URSS, la Hongrie et la Yougoslavie',
+' L’Albanie, la Bulgarie, la Hongrie, la RFA, la Pologne, l’URSS, la Roumanie et la Tchécoslovaquie',
+' La Bulgarie, la Pologne, la RDA, la Roumanie, l’URSS, la Yougoslavie, la Hongrie et la Tchécoslovaquie',
+' Les pays occidentaux',
+],
+},
+{
+'Quel président américain a lancé la politique de «la nouvelle donne» ?':[
+' Franklin Roosevelt',
+' Harry Truman',
+' Dwight D. Eisenhower',
+' John F. Kennedy',
+' Lyndon B. Johnson',
+],
+},
+{
+'Quel livre n’a pas été écrit par Steinbeck ?':[
+' Le Vieil Homme et la mer',
+' Des souris et des hommes',
+' À l’Est d’Eden',
+' En un combat douteux',
+' Les Raisins de la colère',
+],
+},
+{
+'Avant d’être l’un des leaders du mouvement qui conduisit à l’indépendance de l’Inde, dans quel pays Gandhi testa ses armes non violentes?':[
+' L’Afrique du Sud',
+' L’Australie',
+' La Chine',
+' L’Égypte',
+' L’Angleterre',
+],
+},
+{
+'De quelle langue vient le mot «caviar» ?':[
+' Du turc',
+' De l’iranien',
+' De l’ukrainien',
+' De l’irakien',
+' Du russe',
+],
+},
+{
+'Quelle a été la plus grande ville de l’Empire Inca ?':[
+' Cuzco',
+' Tikal',
+' Tenochtitlan',
+' Copàn',
+' Cahokia',
+],
+},
+{
+'Lequel de ces opéras n’a pas été composé par Puccini ?':[
+' Le Barbier de Séville',
+' Madame Butterﬂy',
+' Turandot',
+' La Bohème',
+' Tosca',
+],
+},
+{
+'Dans quel ﬁlm Louis de Funès n’a-t- il pas joué ?':[
+' La Grande Illusion',
+' La Folie des grandeurs',
+' Le Gendarme',
+' L’Aile ou la cuisse',
+' La Grande Vadrouille',
+],
+},
+{
+'En 1949, parmi les personnalités suivantes qui était le premier président israélien?':[
+' Chaim Weizmann',
+' Yosef Sprinzak',
+' Yitzhak ben-Zvi',
+' Kadish Luz',
+' Ben Gourion',
+],
+},
+{
+'Qu’est-ce que le «frison» ?':[
+' Une langue parlée dans une région se situant sur le territoire de l’Allemagne et des Pays-Bas',
+' Un plat de différentes viandes cuisiné dans les villes autour de la mer Baltique',
+' Un animal rencontré dans les forêts de Sibérie',
+' Une monnaie utilisée dans certains pays d’Afrique',
+' Un petit sac de cuir fabriqué au Maroc',
+],
+},
+{
+'Quelle île a été largement représentée dans les œuvres de Paul Gauguin ?':[
+' Tahiti',
+' La Corse',
+' La Sicile',
+' Mayotte',
+' La Martinique',
+],
+},
+{
+'Quelle est la capitale de la Lettonie ?':[
+' Riga',
+' Vilnius',
+' Minsk',
+' Chisinau',
+' Kiev',
+],
+},
+{
+'Quel est le nom du programme d’évaluation coordonné par l’OCDE qui vise à comparer chaque année la performance des systèmes éducatifs à travers le monde ?':[
+' PISA',
+' MDEP',
+' INPN',
+' UNDP',
+' PNLT',
+],
+},
+{
+'Parmi les propositions suivantes, quelle civilisation ne fait pas partie des civilisations pré-colombiennes ?':[
+' Zapotèques',
+' Mayas',
+' Aztèques',
+' Olmèques',
+' Hopewells',
+],
+},
+{
+'Quel sculpteur a décoré le Parthénon, et réalisé la statue d’Athéna Parthenos qu’il abritait ?':[
+' Phidias',
+' Lysippe',
+' Périclès',
+' Praxitèle',
+' Pisistrate',
+],
+},
+{
+'Quel économiste est à l’origine de la notion de «main invisible du marché» ?':[
+' Adam Smith',
+' Léon Walras',
+' Jean-Baptiste Say',
+' David Ricardo',
+' Friedrich Hayek',
+],
+},
+{
+'Dans lequel de ces modèles duopolistiques, les entreprises s’entendent-elles sur les prix ?':[
+' Le modèle de Bertrand',
+' Le modèle de Cournot',
+' Le modèle de Stackelberg',
+' Le modèle de Bowley',
+' Le modèle de Hotteling',
+],
+},
+{
+'Quel roman n’a pas été écrit par Honoré de Balzac ?':[
+' La Chartreuse de Parme',
+' Le Lys dans la vallée',
+' La Peau de chagrin',
+' Le Père Goriot',
+' Le Colonel Chabert',
+],
+},
+{
+'Par quels ﬂeuves la ville de Lyon est- elle traversée ?':[
+' Le Rhône et la Saône',
+' La Saône et la Loire',
+' Le Rhône et la Loire',
+' La Saône et l’Ain',
+' Le Rhône et la Garonne',
+],
+},
+{
+'Parmi les propositions suivantes, quel pays n’a pas signé le traité de non-prolifération nucléaire ?':[
+' L’Inde',
+' La Russie',
+' L’Iran',
+' Les États-Unis',
+' La Corée du Nord',
+],
+},
+{
+'Avant de s’engager en politique, quel était le domaine de prédilection d’Hitler ?':[
+' La peinture',
+' La littérature',
+' Le théâtre',
+' La musique',
+' Les sciences',
+],
+},
+{
+'Parmi les termes suivants, lequel ne fait pas partie de l’art poétique ?':[
+' La ramette',
+' L’hexamètre',
+' Le pentamètre',
+' Le haïku',
+' L’alexandrin',
+],
+},
+{
+'Qui a succédé à José Manuel Barroso à la présidence de la Commission européenne ?':[
+' Jean-Claude Juncker',
+' Jacques Delors',
+' Romano Prodi',
+' Michel Barnier',
+' Christine Lagarde',
+],
+},
+{
+'Dans quel pays se trouve la ville de Byblos ?':[
+' Au Liban',
+' En Syrie',
+' En Égypte',
+' En Grèce',
+' En Israël',
+],
+},
+{
+'En quelle année fut signé le traité de Rome instituant la Communauté économique européenne ?':[
+' En 1957',
+' En 1954',
+' En 1955',
+' En 1956',
+' En 1951',
+],
+},
+{
+' Qui a écrit La Vie de Jésus ?':[
+' Georg Wilhelm Friedrich Hegel',
+' Emmanuel Kant',
+' Alfred de Musset',
+' Marguerite Duras',
+' Friedrich Nietzsche',
+],
+},
+{
+'Durant quel siècle le Moyen Âge a-t-il pris ﬁn ?':[
+' Au XVe siècle',
+' Au XIIIe siècle',
+' Au XIVe siècle',
+' Au XIIe siècle',
+' Au XVIe siècle',
+],
+},
+{
+'Parmi les personnalités politiques suivantes, laquelle ne fut pas ministre sous la présidence de François Mitterrand ?':[
+' Georges Frêche',
+' Claude Cheysson',
+' Edgard Pisani',
+' Charles Fiterman',
+' Michel Jobert',
+],
+},
+{
+'Quel pays n’est pas traversé par la cordillère des Andes ?':[
+' Brésil',
+' Chili',
+' Colombie',
+' Pérou',
+' Bolivie',
+],
+},
+{
+'Parmi les personnalités suivantes, laquelle dirige le SNP, le « Parti National Écossais » et le gouvernement écossais depuis 2007 ?':[
+' Alex Salmond',
+' David Cameron',
+' Jack Mc Connell',
+' Donald Dewar',
+' Henry McLeish',
+],
+},
+{
+'Quel est le concept économique désignant une réduction de l’inﬂation ?':[
+' La désinﬂation',
+' La stagﬂation',
+' La déﬂation',
+' La récession',
+' L’austérité',
+],
+},
 
-};
+{
+'Les DTS « droits de tirage spéciaux » créés par le Fond Monétaire International en 1969 sont:':[
+' Un actif de réserve destiné à compléter les réserves de change ofﬁcielles des pays membres',
+' Une autorisation accordée par le FMI pour délivrer des informations ﬁnancières',
+' Des crédits de secours accordés aux pays dont la balance commerciale est déﬁcitaire',
+' Un droit que le FMI s’accorde à lui-même pour accroître ses réserves de change',
+' Une validation par le FMI des agences de notation',
+],
+},
+{
+'En Allemagne, en 1938, quel évènement a déclenché les violences contre les juifs, appelé «La Nuit de Cristal» ?':[
+' L’assassinat d’un conseiller d’ambassade allemand',
+' Une tentative d’assassinat contre Hitler',
+' La dégradation d’un bâtiment ofﬁciel des SS',
+' Une révolte du peuple juif contre le IIIe Reich à Berlin',
+' La diffusion d’une émission prônant le Judaïsme à la radio allemande',
+],
+},
+{
+'Qu’est-ce que «Boko Haram» ?':[
+' Un mouvement religieux du Nigéria, classé comme une organisation terroriste par les États-Unis',
+' Une prière récitée durant les messes en Afrique du Nord',
+' Une langue parlée dans certaines provinces gabonaises',
+' Un plat de poissons bouillis',
+' Un quartier de bidonvilles de la ville de Yaoundé',
+],
+},
+{
+'De quel groupe, Boy George faisait-il partie ?':[
+' Culture Club',
+' Depeche Mode',
+' The Cure',
+' Wham',
+' Kool and the gang',
+],
+},
+{
+'Que désigne l’équipement militaire de classe MISTRAL vendu à la Russie par la France devenu source de tension diplomatique en raison du développement de la crise ukrainienne en Europe ?':[
+' Un navire porte-hélicoptères',
+' Un char de combat',
+' Un avion de combat',
+' Un sous-marin',
+' Un missile',
+],
+},
+{
+'Lequel des responsables politiques suivants n’a, à ce jour, jamais été ministre ou secrétaire d’État ?':[
+' François Hollande',
+' Martine Aubry',
+' Rama Yade',
+' Jean-Noël Jeanneney',
+' Ségolène Royal',
+],
+},
+{
+'En France, laquelle de ces fonctions, Laurent Fabius n’a-t-il jamais exercée?':[
+' Ministre de l’Intérieur',
+' Ministre de l’Économie et des Finances',
+' Premier ministre',
+' Ministre délégué au Budget',
+' Président de l’Assemblée Nationale',
+],
+},
+{
+'Quel représentant français du comité olympique a démissionné de ses fonctions après les jeux de Sotchi ?':[
+' Jean-Claude Killy',
+' Jean-François Lamour',
+' Michel Barnier',
+' Guy Drut',
+' Tony Estanguet',
+],
+},
+{
+'Les îles Féroé se situent entre :':[
+' L’Écosse et l’Islande',
+' L’Islande et le Groënland',
+' La Suède et la Finlande',
+' Le Canada et le Groënland',
+' L’Alaska et la Russie',
+],
+},
+{
+'Quel est l’intrus ?':[
+' Le Parc du château de Chenonceau',
+' Le Jardin des Tuileries',
+' Le Parc Monceau',
+' Le Jardin du Luxembourg',
+' Le Jardin des Plantes',
+],
+},
+{
+'Lequel de ces concepts se situe au centre de l’approche contractualiste des organisations ?':[
+' Le coût de transaction',
+' Le coût salarial',
+' L’inﬂation',
+' La conﬁance',
+' La hiérarchie',
+],
+},
+{
+'Quel est le nom de la mesure statistique fréquemment utilisée pour mesurer le degré d’égalité (ou d’inégalité) de la distribution de revenus au sein d’un pays ?':[
+' Le coefﬁcient de Gini',
+' L’Indicateur de Développement Humain',
+' Le PIB par habitant',
+' Indicateur de Pauvreté Humaine',
+' Seuil de Pauvreté',
+],
+},
+{
+'De quel pays la République de Mordovie dépend-elle ?':[
+' La Russie',
+' La Moldavie',
+' L’Ukraine',
+' La Biélorussie',
+' La Lettonie',
+],
+},
+{
+'Parmi les pays suivants, lequel n’appartient pas à la communauté économique ZLEA ?':[
+' L’Australie',
+' L’Uruguay',
+' Haïti',
+' Le Honduras',
+' Les États-Unis',
+],
+},
+{
+'Parmi les propositions suivantes, laquelle est correcte ?':[
+' En 2004, l’Afghanistan devient la République Islamique d’Afghanistan après la chute des Talibans',
+' Après le retrait des troupes soviétiques en 1999, les talibans ont pris le pouvoir',
+' Dès le mois d’octobre 2002, les États-Unis attaquent l’Afghanistan en réponse aux attentats terroristes',
+' Dès le mois d’août 2001, les États-Unis attaquent l’Afghanistan en réponse aux attentats terroristes',
+' L’armée soviétique s’est battue, en 2001, en Afghanistan aﬁn de maintenir le pouvoir des Talibans',
+],
+},
+{
+'Qui est le lauréat du prix Renaudot pour son roman intitulé «Un roman français» ?':[
+' Frédéric Beigbeder',
+' Daniel Pennac',
+' Daniel Picouly',
+' Marie NDiaye',
+' Amelie Nothomb',
+],
+},
+{
+'Dans quelle partie du monde peut-on rencontrer le peuple Quechua ?':[
+' Dans les Andes',
+' En Asie Mineure',
+' En Inde',
+' Au Moyen-Orient',
+' En Océanie',
+],
+},
+{
+'En France, en quelle année la télévision en couleur est-elle apparue ?':[
+' En 1967',
+' En 1957',
+' En 1947',
+' En 1977',
+' En 1987',
+],
+},
+{
+'Le peintre Hubert Robert est connu pour ses tableaux :':[
+' De ruines',
+' De scènes de chasse',
+' De natures mortes',
+' De jeunes ﬁlles',
+' Monochromes',
+],
+},
+{
+'Dans quelle ville se trouve le stade du Maracana ?':[
+' Rio de Janeiro',
+' Brasilia',
+' Sao Paulo',
+' Bahia',
+' Recif',
+],
+},
+{
+'Dans quel pays se trouve la ville de Santa Fe ?':[
+' Aux États-Unis',
+' Au Mexique',
+' Au Belize',
+' Au Guatemala',
+' Au Honduras',
+],
+},
+{
+'La résolution 1757 du conseil de sécurité des Nations Unies vise à donner mandat de poursuivre les personnes responsables de l’attentat du 14 février 2005 qui a entraîné la mort de l’ancien Premier ministre libanais Raﬁc Hariri. Cette compétence est conﬁée:':[
+' Au tribunal spécial pour le Liban',
+' À la cour pénale internationale',
+' À un détachement international de gendarmerie rattaché à la FINUL',
+' À la justice libanaise ordinaire sous mandat de l’ONU pour la circonstance',
+' À personne car le conseil de sécurité s’est déclaré incompétent pour statuer',
+],
+},
+{
+'Le règne de Charles Quint à la tête du Saint-Empire romain germanique a duré de…':[
+' 1519 à 1556',
+' 1152 à 1190',
+' 1355 à 1378',
+' 962 à 973',
+' 1711 à 1740',
+],
+},
+{
+'À quelle hauteur la Tour Eiffel culmine-t-elle ?':[
+' 324 mètres',
+' 224 mètres',
+' 274 mètres',
+' 174 mètres',
+' 374 mètres',
+],
+},
+{
+'Quelle chanson n’a pas été interprétée par Johnny Hallyday ?':[
+' «Sur la route de Memphis»',
+' «Retiens la nuit»',
+' «Let’s twist again»',
+' «Gabrielle»',
+' «Que je t’aime»',
+],
+},
+{
+'En France, en quelle année a été mis en place l’impôt sur le revenu ?':[
+' 1914',
+' 1905',
+' 1814',
+' 1936',
+' 1946',
+],
+},
+{
+'Combien d’ États sont-ils membres de l’OSCE (Organisation pour la sécurité et la coopération en Europe) ?':[
+' 57',
+' 19',
+' 27',
+' 38',
+' 11',
+],
+},
+{
+'En 1848, où a été découvert un gisement d’or qui allait changer une partie de la «physionomie» des États-Unis ?':[
+' À Sacramento en Californie',
+' À Houston au Texas',
+' À Chicago dans l’Illinois',
+' À Philadelphie en Pennsylvanie',
+' À Phoenix en Arizona',
+],
+},
+{
+'À quelle technique de peinture l’œuvre de Jackson Pollock est-elle associée ?':[
+' Le dripping',
+' Le collage',
+' Le paint-running',
+' L’aplat',
+' Le reverse grafﬁti',
+],
+},
+{
+'Dans quelle commune, le fort de Brégançon, résidence de vacances du président de la République fran- çaise, se trouve-t-il ?':[
+' Bormes-les-Mimosas',
+' Cavalaire-sur-Mer',
+' Saint-Tropez',
+' La Croix-Valmer',
+' Saint-Raphaël',
+],
+},
+{
+'En quelle année, René Descartes publia-t-il son ouvrage «Méditations» dans lequel il démontre la supériorité de l’esprit sur les sens ?':[
+' En 1641',
+' En 1541',
+' En 1441',
+' En 1741',
+' En 1841',
+],
+},
+{
+'En 1921, dans quel pays a eu lieu la mise en œuvre de la nouvelle politique économique connue sous l’acronyme NEP ?':[
+' En Russie',
+' Aux États-Unis',
+' En Grande-Bretagne',
+' En France',
+' En Allemagne',
+],
+},
+{
+'Parmi les couturiers suivants, lequel a créé les actuels uniformes de la Compagnie Air France ?':[
+' Christian Lacroix',
+' Karl Lagerfeld',
+' Pierre Cardin',
+' Tom Ford',
+' Jean-Paul Gaultier',
+],
+},
+{
+'Parmi les pays suivants, lequel est relié à l’île principale de la République de Singapour par deux ponts ?':[
+' La Malaisie',
+' La Chine',
+' La Thaïlande',
+' L’Indonésie',
+' La Birmanie',
+],
+},
+{
+'À quelle équipe de football correspond le surnom «les dogues» ?':[
+' Le Losc Lille',
+' Le RC Lens',
+' L’Olympique de Marseille',
+' L’AS Saint Etienne',
+' L’AS Monaco',
+],
+},
+{
+'Quel est l’océan le plus grand et le plus profond au monde recouvrant un tiers de la surface de la planète ?':[
+' L’océan Paciﬁque',
+' L’océan Atlantique',
+' L’océan Austral',
+' L’océan Arctique',
+' L’océan Indien',
+],
+},
+{
+'À quelle bataille militaire de la première guerre mondiale est associé le nom du Maréchal Pétain ?':[
+' La bataille de Verdun',
+' La bataille de la Marne',
+' La bataille du Chemin des Dames',
+' La bataille de la Somme',
+' La bataille d’Arras',
+],
+},
+{
+'Quel est le nom de la bataille navale qui en 31 avant J.-C. conduisit à la victoire d’Octave, le futur empereur Auguste, sur Antoine ?':[
+' La bataille d’Actium',
+' La bataille de Thapsus',
+' La bataille de Mediolanum',
+' La bataille de Philippes',
+' La bataille de Vérone',
+],
+},
+{
+'De quel État dépend le rocher de Gibraltar ?':[
+' Le Royaume-Uni',
+' L’Espagne',
+' Le Maroc',
+' La France',
+' Le Portugal',
+],
+},
+{
+'Qui est l’architecte du Palais de la Bourse de Paris ?':[
+' Brogniard',
+' Garnier',
+' Mansard',
+' Le Corbusier',
+' Le Nôtre',
+],
+},
+{
+'Qu’est-ce qu’ « Echelon » ?':[
+' Le système mondial d’interception des communications privées et publiques',
+' Le système mondial de coordination des services de police',
+' Le système mondial de suivi des activités internet',
+' Le système mondial de coordination des opérateurs internet',
+' Le système mondial de coordination des activités spatiales',
+],
+},
+{
+'En 1895, le Japon s’est attribué la souveraineté sur les îles Senkaku. À la suite de la défaite de 1945, le traité de San Francisco (1951) a placé ces îles sous tutelle américaine et, en 1971, leur administration a été transférée au Japon. Quels sont les deux états revendiquant la souveraineté de ces îles ?':[
+' La Chine et Taïwan',
+' La Corée du Sud et la Russie',
+' Les deux Corées',
+' Le Viêtnam et La Chine',
+' La Malaisie et la Thaïlande',
+],
+},
+{
+'Dans quelle ville Wolfgang Amadeus Mozart est-il né ?':[
+' Salzbourg',
+' Berlin',
+' Vienne',
+' Munich',
+' Bayreuth',
+],
+},
+{
+'Lequel de ces peintres n’a pas appartenu au mouvement impressionniste ?':[
+' Matisse',
+' Monet',
+' Whistler',
+' Pissaro',
+' Van Gogh',
+],
+},
+{
+'Quel acteur joue le rôle de Dominique Strauss-Kahn dans le ﬁlm «Welcome to New York» ?':[
+' Gérard Depardieu',
+' Bernard Tapie',
+' Jean-Pierre Castaldi',
+' Michel Galabru',
+' Benoît Poelvoorde',
+],
+},
+{
+'En France, au large de quelle ville le château d’If se situe-t-il ?':[
+' Marseille',
+' Nice',
+' Toulon',
+' Montpellier',
+' Sète',
+],
+},
+{
+'Parmi les villes suivantes laquelle est une ville séparatiste pro-russe d’Ukraine ?':[
+' Donetsk',
+' Kiev',
+' Tallin',
+' Riga',
+' Bucarest',
+],
+},
+{
+'Lequel de ces Présidents français fut assassiné durant son mandat présidentiel ?':[
+' Paul Doumer',
+' Émile Loubet',
+' Charles De Gaulle',
+' René Coty',
+' Raymond Poincaré',
+],
+},
+{
+'En France, quel homme politique a fait adopter la constitution de la Ve République ?':[
+' Charles de Gaulle',
+' Georges Pompidou',
+' Jacques Chaban Delmas',
+' Valery Giscard d’Estaing',
+' François Mitterrand',
+],
+},
+
+]
+}

@@ -1,19 +1,19 @@
+/* eslint-disable  func-names */
+/* eslint-disable  no-console */
 
-
-/* arn:aws:lambda:eu-west-3:291258507762:function:serverlessrepo-alexa-skil-alexaskillskitnodejstriv-170Q0MTNUVE82 */
 const Alexa = require('ask-sdk-core');
 const questions = require('./questions');
 const i18n = require('i18next');
 const sprintf = require('i18next-sprintf-postprocessor');
 
-const ANSWER_COUNT = 4;
+const ANSWER_COUNT = 5;
 const GAME_LENGTH = 5;
-const SKILL_NAME = 'IAE culture';
-const FALLBACK_MESSAGE = `Le skill ${SKILL_NAME} ne peut pas vous aider avec ca. Il peut poser des questions de culture général provenant de test IAE si vous dites lance partie. COmment puis-je vous aider?`;
+const SKILL_NAME = 'iae culture';
+const FALLBACK_MESSAGE = 'Le skill ${SKILL_NAME} ne peut pas vous aider avec ca. Il peut poser des questions de culture général provenant de test IAE si vous dites lance partie. Comment puis-je vous aider?';
 const FALLBACK_REPROMPT = 'Comment puis-je vous aider?';
-const APL_DOC = require ('./document/renderPage.json' ) ;
-const TWO_PAGER_COMMANDS =  require ('./document/twoSpeakItemsCommand.json' ) ;
-const ONE_PAGER_COMMANDS =  require ('./document/oneSpeakItemCommand.json' ) ;
+const APL_DOC = require('./document/renderPage.json');
+const TWO_PAGER_COMMANDS = require('./document/twoSpeakItemsCommand.json');
+const ONE_PAGER_COMMANDS = require('./document/oneSpeakItemCommand.json');
 const TOKEN_ID = 'pagerSample';
 const firstTransformerList = [
       {
@@ -40,6 +40,8 @@ function makePage(phraseText="",repromptText="",phraseSSMLProperty="",transforme
     "transformers": transformerList
   };
 }
+
+
 
 function supportsDisplay(handlerInput) {
   return handlerInput.requestEnvelope.context
@@ -85,7 +87,6 @@ function populateRoundAnswers(
   const translatedQuestion = translatedQuestions[gameQuestionIndexes[correctAnswerIndex]];
   const answersCopy = translatedQuestion[Object.keys(translatedQuestion)[0]].slice();
   let index = answersCopy.length;
-
   if (index < ANSWER_COUNT) {
     throw new Error('Not enough answers for question.');
   }
@@ -140,10 +141,8 @@ function handleUserGuess(userGaveUp, handlerInput) {
   const { correctAnswerText } = sessionAttributes;
   const requestAttributes = attributesManager.getRequestAttributes();
   const translatedQuestions = requestAttributes.t('QUESTIONS');
-
-
   if (answerSlotValid
-    && parseInt(intent.slots.Answer.value, 10) === sessionAttributes.correctAnswerIndex) {
+    && parseInt(intent.slots.Answer.value, 10) === parseInt(sessionAttributes.correctAnswerIndex, 10)) {
     currentScore += 1;
     speechOutputAnalysis = requestAttributes.t('ANSWER_CORRECT_MESSAGE');
   } else {
@@ -285,8 +284,8 @@ function startGame(newGame, handlerInput) {
   let aplFirstPageSpeechOutput = speechOutput;
   const translatedQuestions = requestAttributes.t('QUESTIONS');
   const gameQuestions = populateGameQuestions(translatedQuestions);
+  console.log(`Gamequestion: ${gameQuestions}`);
   const correctAnswerIndex = Math.floor(Math.random() * (ANSWER_COUNT));
-
   const roundAnswers = populateRoundAnswers(
     gameQuestions,
     0,
@@ -390,74 +389,11 @@ function helpTheUser(newGame, handlerInput) {
 
 /* jshint -W101 */
 const languageString = {
-  en: {
-    translation: {
-      QUESTIONS: questions.QUESTIONS_EN_US,
-      GAME_NAME: 'Reindeer Trivia',
-      HELP_MESSAGE: 'I will ask you %s multiple choice questions. Respond with the number of the answer. For example, say one, two, three, or four. To start a new game at any time, say, start game. ',
-      REPEAT_QUESTION_MESSAGE: 'To repeat the last question, say, repeat. ',
-      ASK_MESSAGE_START: 'Would you like to start playing?',
-      HELP_REPROMPT: 'To give an answer to a question, respond with the number of the answer. ',
-      STOP_MESSAGE: 'Would you like to keep playing?',
-      QUIT_MESSAGE: 'Good bye.',
-      CANCEL_MESSAGE: 'Ok, let\'s play again soon.',
-      NO_MESSAGE: 'Ok, we\'ll play another time. Goodbye!',
-      TRIVIA_UNHANDLED: 'Try saying a number between 1 and %s',
-      HELP_UNHANDLED: 'Say yes to continue, or no to end the game.',
-      START_UNHANDLED: 'Say start to start a new game.',
-      NEW_GAME_MESSAGE: 'Welcome to %s. ',
-      WELCOME_MESSAGE: 'I will ask you %s questions, try to get as many right as you can. Just say the number of the answer. Let\'s begin. ',
-      ANSWER_CORRECT_MESSAGE: 'correct. ',
-      ANSWER_WRONG_MESSAGE: 'wrong. ',
-      CORRECT_ANSWER_MESSAGE: 'The correct answer is %s: %s. ',
-      ANSWER_IS_MESSAGE: 'That answer is ',
-      TELL_QUESTION_MESSAGE: 'Question %s. %s ',
-      GAME_OVER_MESSAGE: 'You got %s out of %s questions correct. Thank you for playing!',
-      SCORE_IS_MESSAGE: 'Your score is %s. '
-    },
-  },
-  'en-US': {
-    translation: {
-      QUESTIONS: questions.QUESTIONS_EN_US,
-      GAME_NAME: 'American Reindeer Trivia'
-    },
-  },
-  'en-GB': {
-    translation: {
-      QUESTIONS: questions.QUESTIONS_EN_GB,
-      GAME_NAME: 'British Reindeer Trivia'
-    },
-  },
-  de: {
-    translation: {
-      QUESTIONS: questions.QUESTIONS_DE_DE,
-      GAME_NAME: 'Wissenswertes über Rentiere in Deutsch',
-      HELP_MESSAGE: 'Ich stelle dir %s Multiple-Choice-Fragen. Antworte mit der Zahl, die zur richtigen Antwort gehört. Sage beispielsweise eins, zwei, drei oder vier. Du kannst jederzeit ein neues Spiel beginnen, sage einfach „Spiel starten“. ',
-      REPEAT_QUESTION_MESSAGE: 'Wenn die letzte Frage wiederholt werden soll, sage „Wiederholen“ ',
-      ASK_MESSAGE_START: 'Möchten Sie beginnen?',
-      HELP_REPROMPT: 'Wenn du eine Frage beantworten willst, antworte mit der Zahl, die zur richtigen Antwort gehört. ',
-      STOP_MESSAGE: 'Möchtest du weiterspielen?',
-      QUIT_MESSAGE: 'Auf Wiedersehen.',
-      CANCEL_MESSAGE: 'OK, dann lass uns bald mal wieder spielen.',
-      NO_MESSAGE: 'OK, spielen wir ein andermal. Auf Wiedersehen!',
-      TRIVIA_UNHANDLED: 'Sagt eine Zahl beispielsweise zwischen 1 und %s',
-      HELP_UNHANDLED: 'Sage ja, um fortzufahren, oder nein, um das Spiel zu beenden.',
-      START_UNHANDLED: 'Du kannst jederzeit ein neues Spiel beginnen, sage einfach „Spiel starten“.',
-      NEW_GAME_MESSAGE: 'Willkommen bei %s. ',
-      WELCOME_MESSAGE: 'Ich stelle dir %s Fragen und du versuchst, so viele wie möglich richtig zu beantworten. Sage einfach die Zahl, die zur richtigen Antwort passt. Fangen wir an. ',
-      ANSWER_CORRECT_MESSAGE: 'Richtig. ',
-      ANSWER_WRONG_MESSAGE: 'Falsch. ',
-      CORRECT_ANSWER_MESSAGE: 'Die richtige Antwort ist %s: %s. ',
-      ANSWER_IS_MESSAGE: 'Diese Antwort ist ',
-      TELL_QUESTION_MESSAGE: 'Frage %s. %s ',
-      GAME_OVER_MESSAGE: 'Du hast %s von %s richtig beantwortet. Danke fürs Mitspielen!',
-      SCORE_IS_MESSAGE: 'Dein Ergebnis ist %s. '
-    },
-  },
   fr: {
     translation: {
-      GAME_NAME: 'IAE culture',
-      HELP_MESSAGE: 'Je vous poserais %s questions à choix multiples. Repondez en utilisant le numéro de la réponse. Par exemeple dites un, deux, trois, ou quatre. Pour démarrer une nouvelle partie à n\'importe quel moment dites nouvelle partie',
+      QUESTIONS: questions.QUESTIONS_fr,
+      GAME_NAME: 'iae culture',
+      HELP_MESSAGE: 'Je vous poserais %s questions à choix multiples. Repondez en utilisant le numéro de la réponse. Par exemple dites un, deux, trois, ou quatre. Pour démarrer une nouvelle partie à n\'importe quel moment dites nouvelle partie',
       REPEAT_QUESTION_MESSAGE: 'Pour répèter la dernière question dites répète.',
       ASK_MESSAGE_START: 'Voulez vous commencer la partie?.',
       HELP_REPROMPT: 'Pour donner une réponse à une question, donnez le numéro de la réponse. ',
@@ -468,13 +404,13 @@ const languageString = {
       TRIVIA_UNHANDLED: 'Essayer de dire un nombre entre 1 et %s.',
       HELP_UNHANDLED: 'Dites oui pour continuer, ou non pour finir la partie.',
       START_UNHANDLED: 'Dites lance partie pour lancer une partie.',
-      NEW_GAME_MESSAGE: 'Bienvu à %s. ',
+      NEW_GAME_MESSAGE: 'Bienvenue à %s. ',
       WELCOME_MESSAGE: 'Je vous poserais %s questions, essayer de répondre au plus possible. Donnez juste le numéro. C\'est parti!. ',
       ANSWER_CORRECT_MESSAGE: 'correcte. ',
       ANSWER_WRONG_MESSAGE: 'faux. ',
       CORRECT_ANSWER_MESSAGE: 'La bonne réponse est %s: %s. ',
       ANSWER_IS_MESSAGE: 'La réponse est ',
-      TELL_QUESTION_MESSAGE: 'Question %s. %s '
+      TELL_QUESTION_MESSAGE: 'Question %s. %s',
       GAME_OVER_MESSAGE: 'Vous avez eu %s bonne réponses sur %s questions. Merci pour avoir joué!',
       SCORE_IS_MESSAGE: 'Votre score est %s. '
     },
@@ -498,20 +434,30 @@ const LocalizationInterceptor = {
   },
 };
 
+
 const LaunchRequest = {
   canHandle(handlerInput) {
     const { request } = handlerInput.requestEnvelope;
-
-    return request.type === 'LaunchRequest'
-      || (request.type === 'IntentRequest'
-        && request.intent.name === 'AMAZON.StartOverIntent');
+    return ((request.type === 'LaunchRequest') || (request.type === 'IntentRequest' && request.intent.name === 'AMAZON.StartOverIntent'));
   },
   handle(handlerInput) {
     return startGame(true, handlerInput);
   },
 };
 
-
+/*
+const LaunchRequest = {
+    canHandle(handlerInput) {
+        return handlerInput.requestEnvelope.request.type === 'LaunchRequest';
+    },
+    handle(handlerInput) {
+        const speechText = 'Welcome to the Alexa Skills Kit, you can say hello!';return handlerInput.responseBuilder
+            .speak(speechText)
+            .reprompt(speechText)
+            .withSimpleCard('Hello World', speechText)
+            .getResponse();
+    }
+}; */
 const HelpIntent = {
   canHandle(handlerInput) {
     const { request } = handlerInput.requestEnvelope;
@@ -669,7 +615,6 @@ const SessionEndedRequest = {
   },
   handle(handlerInput) {
     console.log(`Session ended with reason: ${handlerInput.requestEnvelope.request.reason}`);
-
     return handlerInput.responseBuilder.getResponse();
   },
 };
@@ -897,7 +842,7 @@ const ErrorHandler = {
   },
   handle(handlerInput, error) {
     console.log(`Error handled: ${error.message}`);
-    let speechOutput = 'Désole, je ne comprends pas la commande, veuillez répéter';
+    let speechOutput = 'Désolé, je ne comprends pas la commande, veuillez répéter';
     const repromptText = speechOutput;
     if (supportsDisplay(handlerInput)) {
       let payload = {
