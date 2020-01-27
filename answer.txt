@@ -1,99 +1,99 @@
-Question 01: 5
+Question 01: 2
 
 Question 02: 5
 
-Question 03: 3
+Question 03: 4
 
-Question 04: 4
+Question 04: 3
 
-Question 05: 3
+Question 05: 1
 
-Question 06: 3
+Question 06: 1
 
 Question 07: 5
 
-Question 08: 3
+Question 08: 4
 
-Question 09: 1
+Question 09: 3
 
-Question 10: 4
+Question 10: 2
 
-Question 11: 2
+Question 11: 1
 
 Question 12: 3
 
-Question 13: 5
+Question 13: 2
 
 Question 14: 3
 
 Question 15: 5
 
-Question 16: 4
+Question 16: 2
 
-Question 17: 2
+Question 17: 1
 
-Question 18: 2
+Question 18: 3
 
 Question 19: 2
 
-Question 20: 1
+Question 20: 5
 
-Question 21: 2
+Question 21: 3
 
-Question 22: 5
+Question 22: 4
 
-Question 23: 3
+Question 23: 2
 
-Question 24: 4
+Question 24: 1
 
-Question 25: 3
+Question 25: 5
 
-Question 26: 1
+Question 26: 2
 
 Question 27: 3
 
-Question 28: 1
+Question 28: 4
 
-Question 29: 5
+Question 29: 3
 
-Question 30: 5
+Question 30: 1
 
-Question 31: 1
+Question 31: 5
 
 Question 32: 4
 
-Question 33: 5
+Question 33: 2
 
-Question 34: 1
+Question 34: 2
 
-Question 35: 5
+Question 35: 1
 
-Question 36: 2
+Question 36: 5
 
-Question 37: 1
+Question 37: 2
 
 Question 38: 1
 
-Question 39: 3
+Question 39: 2
 
-Question 40: 4
+Question 40: 1
 
-Question 41: 2
+Question 41: 4
 
 Question 42: 4
 
 Question 43: 2
 
-Question 44: 3
+Question 44: 5
 
 Question 45: 1
 
-Question 46: 3
+Question 46: 2
 
-Question 47: 1
+Question 47: 3
 
-Question 48: 2
+Question 48: 4
 
 Question 49: 1
 
-Question 50: 1 
+Question 50: 4 

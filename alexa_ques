@@ -881,6 +881,455 @@ module.exports = {
 ' François Mitterrand',
 ],
 },
-
+{
+'Une question sine qua non est une condition ?':[
+' Nécessaire',
+' Inavouable',
+' Acceptable',
+' ENvisageable',
+' Obsolète',
+],
+},
+{
+'Comment se définit la valeur du pH d'une solution acide ?':[
+' pH inférieur à 7',
+' pH compris entre 0 et 1',
+' pH négatif',
+' pH supérieur à 7',
+' pH égal à 7',
+],
+},
+{
+'Quelle est la planète la plus éloignée du soleil ?':[
+' Neptune',
+' Vénus',
+' Uranus',
+' Mercure',
+' Jupiter',
+],
+},
+{
+'Que signifie la luction latine sine die?':[
+' Sans délais',
+' Sans dû',
+' Sans scrupule',
+' Sans façon',
+' Sans hasard',
+],
+},
+{
+'En quelle année la planète Pluton a-t-elle été découverte ?':[
+' 1930',
+' 1946',
+' 1969',
+' 1975',
+' 1989',
+],
+},
+{
+'Qui à écrit le roman la fin de l'éternité ?':[
+' Isaac Asimov',
+' Judith Merryl',
+' Ray Bradbury',
+' Stephen King',
+' Julian May',
+],
+},
+{
+'Où se trouve le volcan l'Etna ?':[
+' Italie',
+' France',
+' Espagne',
+' Amérique latine',
+' Suisse',
+],
+},
+{
+'Qui est l'auteur de la citation "la loi est raison, sans passion" ?':[
+' Aristote',
+' Jean-Jacques Rousseau',
+' 2pictète',
+' Alain',
+' Platon',
+],
+},
+{
+'Qui à précédé François Mitterrand à la présidence de la République ?':[
+' Valéry Giscard d'Estaing',
+' Georges Pompidou',
+' Charles de Gaulle',
+' René Coty',
+' Vincent Aurio',
+],
+},
+{
+'Comment nomme-t-on également une pyramide à base triangulaire ?':[
+' Tétraèdre',
+' Trièdre',
+' Quatrièdre',
+' Pentaèdre',
+' Hexaèdre',
+],
+},
+{
+'Comment appelle-t-on la probabilité qu'un test soit positif sachant que le sujet est malade?':[
+' Sensibilité du test',
+' Spécificité du test',
+' Prévalence',
+' Valeur prédictive positive',
+' Valeur prédictive négative',
+],
+},
+{
+'Quel est le matériau avec lequel est construite la tour Eiffel ?':[
+' Fer puddlé',
+' Cuivre',
+' Laiton',
+' Zinc',
+' Aluminium',
+],
+},
+{
+'Qu'est ce que le laiton ?':[
+' Un alliage de cuivre et de zinc',
+' Un alliage d'aluminium et de fer',
+' DU petit lait',
+' Un engrais',
+' Un outil agricole',
+],
+},
+{
+'Comment s'appelle les petits du lapin ?':[
+' Des lapereaux',
+' Des lapineaux',
+' Des lapins',
+' Des lapieaux',
+' Des levrauts',
+],
+},
+{
+'A qui doit-on la photographie Le baiser de l'Hôtel de ville ?':[
+' Robert Doisneau',
+' Jean-Marie Perier',
+' Willy Maywald',
+' Edouard-Denis Baldus',
+' Jeanloup Sief',
+],
+},
+{
+'Ou se trouve le Getty Museum ?':[
+' Los Angeles',
+' Berlin',
+' Milan',
+' Paris',
+' Londres',
+],
+},
+{
+'Qui est le gouverneur de Californie de 2003 à 2011 ?':[
+' Arnold Scharzenegger',
+' Jerry Brown',
+' Pete Wilson',
+' Gray Davis',
+' Peter Coyote',
+],
+},
+{
+'Le passage de l'état solide à l'état gazeux s'appelle la ?':[
+' Sublimation',
+' Vaporisation',
+' Condensation',
+' Fusion',
+' Solidification',
+],
+},
+{
+'Parmi ces économistes, lequel n'appartient pas à l'école classique ?':[
+' Léon Walras',
+' John Stuart Mill',
+' Adam Smith',
+' David Ricardo',
+' Jean-Baptiste Say',
+],
+},
+{
+'L'os le plus long du corps humain s'appelle ?':[
+' Le fémur',
+' Le cubitus',
+' Le radius',
+' Le tibia',
+' L'humérus',
+],
+},
+{
+'En quelle années à été construit le canal de suez ?':[
+' Entre 1859 et 1869',
+' Entre 1905 et 1910',
+' Entre 1935 et 1939',
+' Entre 1810 et 1830',
+' Entre 1798 et 1792',
+],
+},
+{
+'Quel nombre est un entier relatif ?':[
+' moins trois',
+' zéro virgule trois trois trois trois',
+' 10',
+' pi',
+' racide de deux',
+],
+},
+{
+'Qui à écrit les malheurs de Sophie ?':[
+' La comtesse de Ségur',
+' Charles Dickens',
+' Charles Perrault',
+' Hector Malot',
+' Les frères Grimm',
+],
+},
+{
+'Quand le second empire prend fin ?':[
+' 1870',
+' 1860',
+' 1852',
+' 1848',
+' 1830',
+],
+},
+{
+'De quel auteur le film I, Robot s'est inspiré ?':[
+' Issac Asimov',
+' René Barjavel',
+' Ray Bradbury',
+' H. G. Wells',
+' Pierre Boulle',
+],
+},
+{
+'Que désigne un soap opera ?':[
+' Un feuilleton télévisé',
+' Un genre de savon',
+' Un film dépourvu de succès',
+' Un opéra',
+' Une réunion sans portée',
+],
+},
+{
+'Qui à écrit la Reine morte ?':[
+' Henri de Montherlant',
+' Marcel Aymé',
+' Jean Anouilh',
+' Jean Genet',
+' Bertold Brecht',
+],
+},
+{
+'Qui succède à Dominique Strauss-Kahn à la présidence du FMI ?':[
+' Christine Lagarde',
+' Jacques de Larosière',
+' Camille Gutt',
+' Rodrigo Rato',
+' Michel Camdessus',
+],
+},
+{
+'Pendant combien d'années, Jacques Chirac a-t-il été président de la République Française ?':[
+' 12',
+' 7',
+' 5',
+' 14',
+' Aucune réponse n'est exacte',
+],
+},
+{
+'Que signifie le Helios en grec ancien ?':[
+' Soleil',
+' épileptique',
+' circulaire',
+' lumière',
+' elliptique',
+],
+},
+{
+'Comment s'appelle l'héroïne du roman Notre-Dame de Paris?':[
+' Esmeralda',
+' Mathilde',
+' Cosette',
+' Fantine',
+' Emma',
+],
+},
+{
+'La femme du hibou s'appelle ?':[
+' Un hibou',
+' Une hiboue avec un e',
+' Une hibouse',
+' Une chouette',
+' Une héronne',
+],
+},
+{
+'Le cerf ?':[
+' Brame',
+' Hennit',
+' Hulule',
+' Blatère',
+' Glousse',
+],
+},
+{
+'En quelle année est achvé la construction de la pyramide du Louvres ?':[
+' 1989',
+' 1994',
+' 1981',
+' 1977',
+' 1971',
+],
+},
+{
+'Quel écrivain est l'auteur du roman Oscar et la dame rose ?':[
+' éric-emmanuel Schmitt',
+' Yann Queffelec',
+' Anna Gavalda',
+' Ken Follett',
+' Xavier Durringer',
+],
+},
+{
+'Quelle pièce n'est pas écrite par Marivaux ?':[
+' La Locandiera',
+' L'école des mères',
+' La mère confidente',
+' La double Inconstance',
+' La fausse suivante',
+],
+},
+{
+'Qu'est ce qu'un comic-strip ?':[
+' Une bande dessinée',
+' Un style musical',
+' un music hall',
+' un roman bref',
+' une histoire drôle',
+],
+},
+{
+'Qui est le réalisateur du film l'Effrontée sorti en 1985 ?':[
+' Claude Miller',
+' Claude Brasseur',
+' Claude Pinoteau',
+' Francis Weber',
+' Kevin Costner',
+],
+},
+{
+'Depuis quelle année la nuit des molières existe-t-elle ?':[
+' 1987',
+' 1975',
+' 1990',
+' 1997',
+' 2001',
+],
+},
+{
+'Quel élément différencie les saluts du théâtre privé à ceux du théâtre public ?':[
+' Au théâtre public tous les comédiens saluent en même temps',
+' Au théâtre privé tous les comédiens saluent en même temps',
+' Seuls les rôles principaux saluent dans le théâtre public',
+' Seuls les rôles principaux saluent dans le théâtre privé',
+' Aucun élément ne différencie les saluts',
+],
+},
+{
+'Qui à peint le tableau NightHawks ?':[
+' Edward Hopper',
+' Edouard Manet',
+' Vicent Van Gogh',
+' Claude Monnet',
+' Wassily Kandinsky',
+],
+},
+{
+'Quel est le nom du malade imaginaire dans la pièce Le Malade imaginaire de Molière ?':[
+' Argan',
+' Cléante',
+' Arnolphe',
+' M. Jourdain',
+' Harpagon',
+],
+},
+{
+'Qui à réalisé le film minuit à Paris ?':[
+' Woody Allen',
+' Steven Spielberg',
+' Stanley Kubrick',
+' Martin Scorsese',
+' Clint Eastwood',
+],
+},
+{
+'En quelle année s'est déroulée la nuit du quatre août ?':[
+' 1789',
+' 1939',
+' 1929',
+' 1918',
+' 1945',
+],
+},
+{
+'Quelle voyelle ne peut pas avoir de trémat ?':[
+' a',
+' e',
+' i',
+' y',
+' sur toutes les voyelles',
+],
+},
+{
+'Le sens de rotation des aiguilles d'une montre correspond ?':[
+' Au sens indirect en mathématiques',
+' Au sens direct en mathématiques',
+' Au sens inverse de vissage',
+' Au sens de la rotation de la Terre sur elle même',
+' A la trajectoire de la terre autour du soleil',
+],
+},
+{
+'Qui est l'auteur du livre de ma mère ?':[
+' Albert Cohen',
+' Victor Hugo',
+' Emile Zola',
+' Stendhal',
+' Honoré de Balzac',
+],
+},
+{
+'Quelle est la signification du terme adagio utilisé en musique ?':[
+' lent',
+' Joyeux',
+' vif',
+' Enjoué',
+' équilibré',
+],
+},
+{
+'Quel est le rayon d'un CD ?':[
+' 6 centimètres',
+' 5 centimètres',
+' 4 centimètres',
+' 7 centimètres',
+' 8 centimètres',
+],
+},
+{
+'Quel est le nom courant de l'acide acétylsalicylique?':[
+' Aspirine',
+' eau salée',
+' eau de javel',
+' jus de citron',
+' vinaigre ',
+],
+},
 ]
 }
